@@ -1,0 +1,41 @@
+@font-face{
+    font-family:OpenSansCondLight;
+    src:url('../fonts/open-sans-cond-light.ttf'),
+        url('../fonts/open-sans-cond-light.woff');
+}
+@font-face{
+    font-family:OpenSansCondBold;
+    src:url('../fonts/open-sans-condensed-bold.ttf'),
+        url('../fonts/open-sans-condensed-bold.woff');
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+a,
+a:hover{text-decoration:none;}
+body{font-family:OpenSansCondBold,sans-serif;font-size:16px;color:#000;}
+
+header{height:1080px;}
+header > div{height:100%;}
+header .parent_block{position:relative;margin:0;}
+header .parent_block .row{width:100%;height:100%;margin:0;padding:90px 64px 72px;position:absolute;z-index:1;}
+header .parent_block .row .inner_block{height:100%;border:1px solid #fff;border-bottom:0;position:relative;}
+header .parent_block .row .inner_block:before,
+header .parent_block .row .inner_block:after{content:"";width:46%;height:1px;background-color:#fff;position:absolute;bottom:0;left:0;}
+header .parent_block .row .inner_block:after{left:inherit;right:0;}
+header .parent_block .row .inner_block{padding-top:84px;}
+header .parent_block .row .inner_block img.logo{margin:0 0 126px 115px;}
+header .parent_block .row .inner_block .menu{list-style:none;}
+header .parent_block .row .menu li{height:16px;margin-bottom:55px;padding-left:104px;position:relative;}
+header .parent_block .row .menu li:last-child{margin-bottom:0;}
+header .parent_block .row .menu li a{color:#fff;text-transform:uppercase;position:absolute;left:124px;top:50%;-ms-transform:translate(0,-50%);transform:translate(0,-50%);transition-duration:.2s;}
+header .parent_block .row .menu li.active a,
+header .parent_block .row .menu li a:hover{font-size:1.500em;transition-duration:.2s;}
+header .left_block,
+header .right_block{height:100%;}
+header .left_block{background-color:#ff530c;position:relative;}
+header .left_block:before{content:"";background:url(../img/mark_header.png)no-repeat;background-size:auto 100%;width:100%;height:100%;position:absolute;left:0;top:0;}
+header .right_block{background:url(../img/header_bg.jpg)no-repeat;background-size:cover;}
+
+@media screen and (max-width:1280px){
+    header{height:768px;}
+}
