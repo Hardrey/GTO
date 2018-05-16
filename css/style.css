@@ -25,8 +25,11 @@ header .parent_block .row .inner_block:after{left:inherit;right:0;}
 header .parent_block .row .inner_block{padding-top:84px;}
 header .parent_block .row .inner_block img.logo{margin:0 0 126px 115px;}
 header .parent_block .row .inner_block .menu{list-style:none;}
-header .parent_block .row .menu li{height:16px;margin-bottom:55px;padding-left:104px;position:relative;}
+header .parent_block .row .menu li{height:16px;margin-bottom:55px;position:relative;}
 header .parent_block .row .menu li:last-child{margin-bottom:0;}
+header .parent_block .row .menu li:before{content:"";width:17px;height:1px;background-color:#fff;position:absolute;left:87px;top:50%;transition-duration:.2s;}
+header .parent_block .row .menu li.active:before,
+header .parent_block .row .menu li:hover:before{width:104px;left:0;transition-duration:.2s;}
 header .parent_block .row .menu li a{color:#fff;text-transform:uppercase;position:absolute;left:124px;top:50%;-ms-transform:translate(0,-50%);transform:translate(0,-50%);transition-duration:.2s;}
 header .parent_block .row .menu li.active a,
 header .parent_block .row .menu li a:hover{font-size:1.500em;transition-duration:.2s;}
