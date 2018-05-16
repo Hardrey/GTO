@@ -10,14 +10,18 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <header class="container-fluid">
-            <div class="row parent_block">
-                <div class="col-xs-12 col-sm-6 left_block"></div>
-                <div class="col-xs-12 col-sm-6 right_block"></div>
-                <div class="row add_border">
-                    <div class="inner_block">
-                        <img src="img/logo.png" alt="" class="logo" />
-                        <ul class="menu">
+        <header class="container-fluid header">
+            <div class="row header__wrapper">
+                <div class="col-xs-12 col-sm-6 header__element_left"></div>
+                <div class="col-xs-12 col-sm-6 header__element_right"></div>
+                <div class="row header__element_border-wrapper">
+                    <div class="header__element_wrapper-content">
+                        <div class="header__buttons">
+                            <a href="/" title="" class="header__button button button_orange">Записаться на сдачу</a>
+                            <a href="/" title="" class="header__button button button_white">Подготовиться к ГТО</a>
+                        </div>
+                        <img src="img/logo.png" alt="" class="header__logo" />
+                        <ul class="header__menu">
                             <li>
                                 <a href="" title="">Какие испытания ожидают?</a>
                             </li>
@@ -34,6 +38,12 @@
                                 <a href="" title="">Где скачать приложение?</a>
                             </li>
                         </ul>
+                        <div class="header__social">
+                            <a href="/" title="" class="header__social-icon icon-facebook"></a>
+                            <a href="/" title="" class="header__social-icon icon-ok"></a>
+                            <a href="/" title="" class="header__social-icon icon-vk"></a>
+                            <a href="/" title="" class="header__social-icon icon-instagram"></a>
+                        </div>
                     </div>
                 </div>
             </div>
