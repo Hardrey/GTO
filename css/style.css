@@ -88,7 +88,7 @@ h2{margin-top:0;font-size:3.000em;font-weight:normal;text-transform:uppercase;}
 .header__mouse-circle:after,
 .header__mouse-img{position:absolute;left:50%;top:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 
-
+.section-banner{height:820px;background:url(../img/banner_bg.jpg)no-repeat;background-size:cover;}
 
 .footer{padding:35px 0 80px;position:relative;}
 .footer__title{margin-bottom:52px;text-align:center;}
