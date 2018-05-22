@@ -120,7 +120,7 @@ h2{margin-top:0;font-size:3.000em;font-weight:normal;text-transform:uppercase;}
 .footer__button-circle-wrap:after{width:98px;height:98px;}
 .footer__button-circle{width:76px;height:76px;border-radius:50%;background-color:#ef4323;text-align:center;line-height:70px;position:absolute;left:50%;top:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 
-/*yyy*/
+/*ttt*/
 
 @media screen and (max-width:1280px){
     .header{height:768px;}
